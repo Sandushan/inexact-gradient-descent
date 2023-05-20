@@ -123,5 +123,6 @@ reset_counts = zeros(max_iter+1, numel(epsilon_vals)+1);
 for i = 1:max_iter
     reset_counts(i+1,:) = sum(resets(1:i,:));
 end
-%save('results.mat')
+
+save('results.mat')
 
