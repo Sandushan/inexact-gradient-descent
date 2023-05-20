@@ -4,7 +4,7 @@ A technical report associated with this simulation code can be found [here](http
 
 ## Requirements
 
-This code requires MATLAB software with optimization toolbox. In addition to that Jupytor Notebook environment with following python packages are required.
+This code requires MATLAB software with optimization toolbox. In addition to that Jupyter Notebook environment with following python packages are required.
 - numpy
 - matplotlib
 - h5py
