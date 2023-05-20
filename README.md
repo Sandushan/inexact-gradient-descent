@@ -1,8 +1,6 @@
 # Inexact Gradient Descent with Controlled Synchronization Steps
 
-## Paper
-
-This repository contains the simulation code for the paper [On the Convergence of Inexact Gradient Descent with Controlled Synchronization Steps](https://arxiv.org/abs/2208.07797).
+A technical report associated with this simulation code can be found [here](https://arxiv.org/abs/2208.07797).
 
 ## Requirements
 
