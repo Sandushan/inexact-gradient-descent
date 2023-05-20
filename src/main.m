@@ -4,7 +4,7 @@ clear all;
 n = 10; % number of variables
 s = 4; % number of subsystems
 
-inits = 1; % number of random initialization points
+inits = 1000; % number of random initialization points
 max_iter = 1000; % maximum number of iterates to be run
 
 noise_bound = 1;
