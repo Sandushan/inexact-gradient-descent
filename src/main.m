@@ -31,7 +31,7 @@ for i = 1:s
     ell_i(i) = 2*min(eig(A(:,:,i)));
 end
 L = sum(L_i); % Lipchitz constant of the whole function
-ell = sum(ell_i); % Strong convexity constant of the whole function
+ell = min(ell_i); % Strong convexity constant of the whole function
 p = 0.5;
 gamma = p/L;
 gamma_ell = gamma*ell;
@@ -64,7 +64,7 @@ for i = 1:inits
 end
 
 % set r and epsilon
-r = 0.03;
+r = 0.9*r_max;
 epsilon_vals =[0.01,0.1,1,10];
 
 max_resets = 400; % to create variables to collect data for plotting purposes 
